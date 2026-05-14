@@ -3,9 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cohort 3 assignment 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    
+    <main class="board">
+        <!-- LEFT COLUMN -->
+        <section class="card hero" aria-label="Hero image card">
+            <div class="hero__icon" aria-hidden="true">
+                <i class="ri-focus-2-line"></i>
+            </div>
+
+            <div class="hero__media" aria-hidden="true">
+                <img class="mediaImg mediaImg--cover" src="https://images.pexels.com/photos/18296116/pexels-photo-18296116.jpeg" alt="Hero athlete" loading="lazy" decoding="async">
+            </div>
+
+            <div class="hero__badges" aria-label="Stats badges">
+                <div class="badge">
+                    <span class="badge__icon badge__icon--yellow" aria-hidden="true"><i class="ri-fire-fill"></i></span>
+                    <div class="badge__text">
+                        <div class="badge__big">35</div>
+                        <div class="badge__small">MIN</div>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="badge__icon badge__icon--lime" aria-hidden="true"><i class="ri-pulse-line"></i></span>
+                    <div class="badge__text">
+                        <div class="badge__big">NO</div>
+                        <div class="badge__small">EXCUSES</div>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="badge__icon badge__icon--yellow" aria-hidden="true"><i class="ri-run-line"></i></span>
+                    <div class="badge__text">
+                        <div class="badge__big">7</div>
+                        <div class="badge__small">DAYS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card redefine" aria-label="Redefine card">
+            <h3 class="redefine__title">REDEFINE YOUR<br>LIMITS, ACHIEVE YOUR<br>FITNESS GOALS</h3>
+            <div class="redefine__footer">
+                <div class="logoChip" aria-hidden="true">
+                    <span class="logoChip__mark"></span>
+                </div>
+                <div class="redefine__meta">
+                    <div class="redefine__metaTop">LUXURY FITNESS</div>
+                    <div class="redefine__metaBottom">EXPERIENCE</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card visit" aria-label="Visit site card">
+            <div class="visit__media" aria-hidden="true">
+                <img class="mediaImg mediaImg--cover" src="https://images.pexels.com/photos/13550428/pexels-photo-13550428.jpeg" alt="Background photo" loading="lazy" decoding="async">
+            </div>
+            <button class="visit__btn" type="button">
+                <span class="visit__arrow" aria-hidden="true"><i class="ri-arrow-right-up-line"></i></span>
+                <span>Visit site</span>
+            </button>
+        </section>
+
+        <!-- TOP ROW CENTER -->
+        <section class="card app" aria-label="App promo card">
+            <div class="app__bars" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <h3 class="app__title">USE OUR APP FOR<br>COMPILING A QUALITY<br>WORKOUT!</h3>
+            <div class="app__stores" aria-label="Store buttons">
+                <div class="storeBtn" aria-hidden="true">
+                    <span class="storeBtn__icon"><i class="ri-google-play-fill"></i></span>
+                    <div class="storeBtn__text">
+                        <div class="storeBtn__small">GET IT ON</div>
+                        <div class="storeBtn__big">Google Play</div>
+                    </div>
+                </div>
+                <div class="storeBtn" aria-hidden="true">
+                    <span class="storeBtn__icon storeBtn__icon--apple"><i class="ri-apple-fill"></i></span>
+                    <div class="storeBtn__text">
+                        <div class="storeBtn__small">Download on the</div>
+                        <div class="storeBtn__big">App Store</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card type" aria-label="Typography sample card">
+            <div class="type__row">
+                <div class="type__label">HEADINGS FONT</div>
+                <div class="type__headline">SUISSE BP INT&rsquo;L</div>
+            </div>
+            <div class="type__row">
+                <div class="type__label">BODY</div>
+                <div class="type__body">SUISSE INT&rsquo;L</div>
+            </div>
+            <div class="type__slider" aria-hidden="true">
+                <span class="type__pill type__pill--pink"></span>
+                <span class="type__pill type__pill--yellow"></span>
+                <span class="type__pill type__pill--white"></span>
+                <span class="type__pill type__pill--black"></span>
+            </div>
+        </section>
+
+        <!-- CENTER LARGE -->
+        <section class="card flex" aria-label="FlexFit logo card">
+            <div class="flex__bg" aria-hidden="true"></div>
+            <div class="flex__brand" aria-label="FlexFit brand lockup">
+                <div class="flex__mark" aria-hidden="true"></div>
+                <div class="flex__word">FlexFit</div>
+            </div>
+        </section>
+
+        <!-- RIGHT COLUMN -->
+        <section class="card own" aria-label="Own your strength card">
+            <div class="own__top">
+                <div class="own__flag" aria-hidden="true">
+                    <span></span><span></span>
+                </div>
+                <div class="own__kicker">TIME FOR FITNESS &mdash; 23</div>
+            </div>
+            <h2 class="own__headline">OWN YOUR<br>STRENGTH,<br>OWN YOU</h2>
+            <div class="own__address" aria-label="Address block">
+                <div class="own__pin" aria-hidden="true"><i class="ri-map-pin-2-fill"></i></div>
+                <div class="own__addrText">
+                    <div class="own__addrLine">12834 FITNESS LN</div>
+                    <div class="own__addrLine">BROOKLYN, NY</div>
+                </div>
+                <div class="own__site">FLEXFIT.COM</div>
+            </div>
+        </section>
+
+        <section class="card phone" aria-label="Phone mockup card">
+            <div class="phone__top">
+                <div class="phone__brand">
+                    <span class="phone__logo" aria-hidden="true"></span>
+                    <span class="phone__name">FlexFit</span>
+                </div>
+                <div class="phone__time">2h</div>
+            </div>
+
+            <div class="phone__frame" aria-hidden="true">
+                <div class="phone__notch"></div>
+                <div class="phone__media">
+                    <img class="mediaImg mediaImg--cover" src="https://png.pngtree.com/png-vector/20250805/ourmid/pngtree-macho-man-engaged-in-intense-muscle-training-at-the-gym-with-png-image_16952415.webp" alt="Phone image" loading="lazy" decoding="async">
+                </div>
+                <div class="phone__overlay">
+                    <div class="phone__title">UNLOCK YOUR<br>POTENTIAL</div>
+                    <div class="phone__ctaRow">
+                        <button class="phone__cta" type="button">SIGN UP</button>
+                        <div class="phone__refresh" aria-hidden="true"><i class="ri-refresh-line"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BOTTOM ROW CENTER -->
+        <section class="card stats" aria-label="Trainer stats card">
+            <div class="stats__title">TRAIN WITH THE<br>BEST PERSONAL<br>TRAINERS</div>
+            <div class="stats__row">
+                <div class="stats__num">48+</div>
+                <div class="stats__meta">
+                    <div class="stats__metaTop">EXPERT TRAINERS</div>
+                    <div class="stats__avatars" aria-hidden="true">
+                        <span class="avatar"></span>
+                        <span class="avatar"></span>
+                        <span class="avatar"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card girl" aria-label="Model image card">
+            <div class="girl__media" aria-hidden="true">
+                <img class="mediaImg mediaImg--contain" src="https://freepngimg.com/thumb/fitness/137836-dumbbell-woman-young-fit-exercise.png" alt="Fitness model" loading="lazy" decoding="async">
+            </div>
+            <!-- <div class="girl__mark" aria-hidden="true">F</div> -->
+        </section>
+    </main>
 </body>
 </html>
